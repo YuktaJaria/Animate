@@ -1,0 +1,47 @@
+.attention{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: darkcyan;
+}
+.Back-entrances{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: green;
+}
+.Back-exits{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.Bouncing-entrances{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: darkblue;
+}
+.Bouncing-exits{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: darkred;
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  /* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
